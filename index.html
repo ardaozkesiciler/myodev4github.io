@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Arda Özkesiciler Blog </title>
+
+    <style>
+        /* Genel stil */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+
+        header {
+            background-color: #264222;
+            color: white;
+            padding: 20px 0;
+        }
+
+        header nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        header nav ul li {
+            display: inline;
+            margin: 0 15px;
+        }
+
+        header nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        header nav ul li a:hover {
+            text-decoration: underline;
+        }
+
+        /* Bölüm Stili */
+        .container {
+            background-color: white;
+            padding: 20px;
+            margin: 20px auto;
+            width: 80%;
+            border-radius: 10px;
+        }
+
+        .profile-img {
+            border-radius: 50%;
+            width: 150px;
+            height: 150px;
+            object-fit: cover;
+        }
+
+        h2 {
+            color: #333;
+        }
+
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        ul li {
+            margin: 5px 0;
+        }
+
+        /* Footer */
+        footer {
+            background-color: #264222;
+            color: white;
+            padding: 10px;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+
+        footer p {
+            margin: 0;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Navigation Bar -->
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#hakkimda">Hakkımda</a></li>
+                <li><a href="#beceri">Becerilerim</a></li>
+                <li><a href="#hobim">Hobilerim</a></li>
+                <li><a href="#iletisim">İletişim</a></li>
+                <li><a href="#sosyalmedya">Sosyal Medyalarım</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hakkımda Bölümü -->
+    <section id="hakkimda" class="container">
+        <h1>Hakkımda</h1>
+        <img src="odev.jpeg" alt="Benim Fotoğrafım" class="profile-img">
+        <p>Merhaba Ben Arda Özkesiciler , bir yazılım geliştirici aynı zamanda Süleyman Demirel Üniversitesinde Bilgisayar Mühendisliği 3. sınıf öğrencisiyim  ve vücut geliştirmeyle uğraşıyorum.Yazılım kısmında daha çok 'Yapay Zekayla' uğraşmak istiyorum.</p>
+    </section>
+
+    <!-- Becerilerim Bölümü -->
+    <section id="beceri" class="container">
+        <h2>Becerilerim</h2>
+        <ul>
+            <li>Yapay Zeka</li>
+            <li>Oyun Geliştirme</li>
+            <li>Vücut Geliştirme</li>
+        </ul>
+    </section>
+
+    <!-- Projelerim Bölümü -->
+    <section id="hobim" class="container">
+        <h1>Hobilerim</h1>
+        <ul>
+            <li>Kod yazmak ve yazılım geliştirmek</li>
+            <li>Vücut Geliştirmeyle uğraşmak.</li>
+        </ul>
+
+        <!-- Video Ekleme -->
+        <h2>En sevdiğim sporcunun bir videosu.</h2>
+        <video controls width="500">
+            <source src="odev cbum.mp4" type="video/mp4">
+        </video>
+    </section>
+    <section id="sosyalmedya">
+        <h1>Sosyal Medya Linklerim</h1>
+        <a href="https://www.instagram.com/ardaozkesiciler" target="_blank">Instagram</a>    |
+        <a href="https://www.twitter.com/ardaozkesiciler" target="_blank">Twitter</a>    |
+        <a href="https://github.com/ardaozkesiciler" target="_blank">GitHub</a>
+    </section>
+
+    <!-- İletişim Bölümü -->
+    <section id="iletisim" class="container">
+        <h1>İletişim İçin</h1>
+        <p>Bana ulaşmak için <a href="mailto:email@ornek.com">ardaozkesiciler@hotmail.com</a> adresine e-posta gönderebilirsiniz.</p>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Arda Özkesiciler. Tüm Hakları Saklıdır | Okul No: 2221032720 </p>
+    </footer>
+
+</body>
+</html>
+
