@@ -1,2 +1,2 @@
 # myodev4github.io
-sdüüüü
+[Kurduğum site](https://ardaozkesiciler.github.io/myodev4github.io/)
